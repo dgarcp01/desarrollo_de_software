@@ -1,0 +1,45 @@
+http://blog.desdelinux.net/guia-rapida-para-utilizar-github/
+
+
+git add README
+git add smaple.c
+
+
+
+git commit -m "mensaje"
+
+
+
+git remote add origin https://github.com/user_name/Mytest.git
+
+aqui ya te piden los credenciales 
+
+
+
+
+git push origin master
+
+
+
+CREACION DE RAMAS EN GITHUB 
+
+Se pueden hacer ramas de nuestro proyecto, haciendo una copia de nuestro codigo y pudiendo volver. Si nuestra prueba sale bien se puede unir la rama con el master.
+
+git branch mirama # crea una nueva rama llamada mirama
+git checkout mirama - pasa a utilizar la rama mirama.
+
+git add .
+git commit -m "cambios en mirama"
+
+
+Unir con master 
+
+git checkout master
+git merge mirama
+
+git branch -d mirama    Se borra la rama 
+
+git push origin master  Se suben los cambios realizados en el master 
+
+
+
